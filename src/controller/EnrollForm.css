@@ -1,0 +1,63 @@
+.enroll-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f7f9fc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.enroll-form .form-group {
+  margin-bottom: 15px;
+}
+
+.enroll-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.enroll-form input,
+.enroll-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.course-description {
+  margin-top: 15px;
+  padding: 10px;
+  background: #e9f5ff;
+  border-left: 5px solid #007bff;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.thank-you-message {
+  text-align: center;
+  padding: 30px;
+  background-color: #d4edda;
+  border-left: 5px solid #28a745;
+  border-radius: 8px;
+}
