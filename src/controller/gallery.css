@@ -6,15 +6,15 @@
 
 .grid-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 15px;
 }
 
+/* Default gallery image size */
 .gallery-image {
   width: 100%;
-  height: 220px; /* Fixed height for uniformity */
+  height: 200px;
   object-fit: cover;
-background-position: center;
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -23,6 +23,22 @@ background-position: center;
 .gallery-image:hover {
   transform: scale(1.03);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .gallery-image {
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+  .gallery-image {
+    height: 120px;
+  }
 }
 
 .modal {

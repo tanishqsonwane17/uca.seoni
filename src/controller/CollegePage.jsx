@@ -1,4 +1,3 @@
-// CollegePage.jsx
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -42,48 +41,51 @@ const images = [
 
 const CollegePage = () => {
   return (
-    <div className="flex flex-col md:flex-row min-h-full bg-[#9CF6FB] p-16 ">
+    <div className="flex mt-120 flex-col lg:flex-row gap-10 lg:gap-16 items-center justify-center min-h-screen px-6 py-12 bg-[#9CF6FB]">
       {/* Left Side: About College */}
-      <div className="md:w-1/2 flex flex-col justify-center items-center bg-[#9CF6FB] p-6 shadow-lg rounded-2xl bg-contain">
+      <div className="w-full lg:w-1/2 bg-white rounded-2xl shadow-lg p-6 sm:p-8">
         <img
           src={academyLogo}
           alt="College"
-          className="rounded-xl mb-6 shadow w-full h-[300px] bg-contain object-contain"
+          className="rounded-xl mb-6 shadow-md w-full h-64 object-contain"
         />
-        <h2 className="text-3xl font-bold mb-4 text-center text-blue-700">About Our College</h2>
-        <p className="text-gray-700 text-lg text-center">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-center text-blue-700">
+          About Our College
+        </h2>
+        <p className="text-gray-700 text-base sm:text-lg text-center">
           Welcome to our prestigious institution dedicated to academic excellence and all-round development. Our campus is equipped with modern infrastructure, experienced faculty, and vibrant student culture.
         </p>
       </div>
 
       {/* Right Side: Image Slider */}
-      <div className="md:w-1/2 mt-8 md:mt-0 md:pl-6">
-  <Swiper
-    modules={[Autoplay, Navigation, Pagination]}
-    spaceBetween={30}
-    slidesPerView={1}
-    navigation
-    autoplay={{ delay: 3000 }}
-    pagination={{ clickable: true }}
-    className="rounded-2xl shadow-lg"
-  >
-    {images.map((img, idx) => (
-      <SwiperSlide key={idx}>
-        <div className="relative group aspect-[4/3] w-full rounded-2xl overflow-hidden">
-          <img
-            src={img.url}
-            alt={img.text}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-          <div className="absolute inset-0 bg-transparent  bg-opacity-50  group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
-            <p className="text-white text-2xl font-semibold text-center px-4">{img.text}</p>
-          </div>
-        </div>
-      </SwiperSlide>
-    ))}
-  </Swiper>
-</div>
-
+      <div className="w-full lg:w-1/2">
+        <Swiper
+          modules={[Autoplay, Navigation, Pagination]}
+          spaceBetween={20}
+          slidesPerView={1}
+          navigation
+          autoplay={{ delay: 3000 }}
+          pagination={{ clickable: true }}
+          className="rounded-2xl shadow-lg"
+        >
+          {images.map((img, idx) => (
+            <SwiperSlide key={idx}>
+              <div className="relative group aspect-[4/3] rounded-2xl overflow-hidden">
+                <img
+                  src={img.url}
+                  alt={img.text}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
+                  <p className="text-white text-xl sm:text-2xl font-semibold text-center px-4">
+                    {img.text}
+                  </p>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 };
