@@ -41,9 +41,9 @@ const images = [
 
 const CollegePage = () => {
   return (
-    <div className="flex mt-120 flex-col lg:flex-row gap-10 lg:gap-16 items-center justify-center min-h-screen px-6 py-12 bg-[#9CF6FB]">
+    <div className="mt-72 lg:mt-46 flex h-full w-full flex-col lg:flex-row gap-10 lg:gap-16 items-center justify-center min-h-screen px-6 py-12 bg-[#9CF6FB]">
       {/* Left Side: About College */}
-      <div className="w-full lg:w-1/2 bg-white rounded-2xl shadow-lg p-6 sm:p-8">
+      <div className="w-full h-[70%] lg:w-1/2 bg-white  rounded-2xl shadow-lg p-6 sm:p-8 mt-">
         <img
           src={academyLogo}
           alt="College"
@@ -52,7 +52,7 @@ const CollegePage = () => {
         <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-center text-blue-700">
           About Our College
         </h2>
-        <p className="text-gray-700 text-base sm:text-lg text-center">
+        <p className="text-gray-700 text-[10px] sm:text-lg text-center">
           Welcome to our prestigious institution dedicated to academic excellence and all-round development. Our campus is equipped with modern infrastructure, experienced faculty, and vibrant student culture.
         </p>
       </div>
