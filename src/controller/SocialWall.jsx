@@ -41,7 +41,7 @@ const posts = [
 
 const SocialWall = () => {
   return (
-    <div className="px-4 py-10 text-center">
+    <div className="px-4 py-10 text-center h-full w-full bg-white">
       <h2 className="text-2xl font-semibold mb-6">Social Wall</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {posts.map((post) => (
