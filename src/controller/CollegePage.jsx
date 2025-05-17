@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import academyLogo from '../assets/univarsal.png';
-import academyLogo1 from '../assets/clg4.jpg';
+import academyLogo1 from '../assets/6.jpg';
 import academyLogo2 from '../assets/clg7.jpg';
 import academyLogo3 from '../assets/clg2.jpg';
 import academyLogo4 from '../assets/clg1.jpg';

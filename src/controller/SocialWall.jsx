@@ -3,9 +3,9 @@ import React from 'react';
 const posts = [
   {
     id: 1,
-    image: '/images/post1.jpg',
-    platform: 'facebook',
-    url: 'https://www.facebook.com/yourpostlink'
+    image: 'https://imgs.search.brave.com/9pA48GOIOj4VbBPLRsSmQ0DPUr7EYwoF9ehEtcfaPUg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/c2VvbmkvZzgvOTk5/OXA3Njk1Ljc2OTUu/MjEwNjE5MTMzMzU1/LnY4ZzgvY2F0YWxv/Z3VlL3VuaXZlcnNh/bC1jb21wdXRlci1h/Y2FkZW15LXNlb25p/LWNpdHktc2Vvbmkt/aW5zdGl0dXRlcy1k/NHpuODV5cm5zLmpw/Zz93PTM4NDAmcT03/NQ',
+    // platform: 'facebook',
+    url: 'https://www.facebook.com/share/1AoydTCwd5/'
   },
   {
     id: 2,
@@ -15,27 +15,27 @@ const posts = [
   },
   {
     id: 3,
-    image: '/images/post3.jpg',
-    platform: 'instagram',
-    url: 'https://www.instagram.com/p/yourpostid'
+    image: 'https://imgs.search.brave.com/aGeYV6v3J5fJOwXCRV5Qmmfjdq33K-Y_UpIrcc0dgdo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/amFncmFuam9zaC5j/b20vaW1hZ2VzLzIw/MjQvU2VwdGVtYmVy/LzU5MjAyNC9mZWF0/dXJlLndlYnA',
+    // platform: 'instagram',
+    url: 'https://youtu.be/OR-d4dXLxag?si=qZ7UgvuiDCBiRWtL'
   },
   {
     id: 4,
-    image: '/images/post4.jpg',
-    platform: 'facebook',
-    url: 'https://www.facebook.com/anotherpost'
+    image: 'https://imgs.search.brave.com/GCOZ6TcVGpTX18DuajTIzOHLiRBkFMfvzv1SNvwFMjs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzUxLzQ4LzY0/LzM2MF9GXzI1MTQ4/NjQ4Ml80blF1RWo5/Z25xVDZlSHdOSUZF/cUt0a2J1STRwb0xH/aS5qcGc',
+    // platform: 'facebook',
+    url: 'https://youtube.com/shorts/eCtDRYgLLNA?si=0l-C2_GkugDoNGla'
   },
   {
     id: 5,
-    image: '/images/post5.jpg',
-    platform: 'youtube',
-    url: 'https://www.youtube.com/watch?v=anothervid'
+    image: 'https://imgs.search.brave.com/MQN8djtywexk_IyAENAfSTueRZyd5-HvNvt3DTbm44U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/c2VvbmkvZzgvOTk5/OXA3Njk1Ljc2OTUu/MjEwNjE5MTMzMzU1/LnY4ZzgvY2F0YWxv/Z3VlL3VuaXZlcnNh/bC1jb21wdXRlci1h/Y2FkZW15LXNlb25p/LWNpdHktc2Vvbmkt/aW5zdGl0dXRlcy15/YzJsMjl4bzVmLmpw/Zz93PTM4NDAmcT03/NQ',
+    // platform: 'youtube',
+    url: 'https://youtube.com/shorts/vObC5BKYtuM?si=A5cEDFb-id0ErLSD'
   },
   {
     id: 6,
-    image: '/images/post6.jpg',
-    platform: 'instagram',
-    url: 'https://www.instagram.com/p/anotherinsta'
+    image: 'https://imgs.search.brave.com/CzMyQ_eXybGoipa4AJMua4bWeZ1VUMN-53Pu5HDX_L8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z3BjYWxvdXIuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI0/LzA1L1dIQVQtSVMt/RENBLUFORC1QR0RD/QS5wbmc',
+    // platform: 'instagram',
+    url: 'https://youtube.com/shorts/gDEPOqqauEg?si=USu_Q3pTDfqka9eo'
   },
 ];
 
