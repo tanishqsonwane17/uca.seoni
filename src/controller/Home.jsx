@@ -12,7 +12,7 @@ export default function MedicapsLandingPage() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-full  relative h-screen">
+    <div className="min-h-full  relative h-screen   ">
       {/* Background Video */}
       <video
         autoPlay

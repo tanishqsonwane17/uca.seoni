@@ -41,7 +41,7 @@ const images = [
 
 const CollegePage = () => {
   return (
-    <div className="mt-72 lg:mt-46 flex h-full w-full flex-col lg:flex-row gap-10 lg:gap-16 items-center justify-center min-h-screen px-6 py-12 bg-[#9CF6FB]">
+    <div className="mt-76 lg:mt-46 flex h-full w-full flex-col lg:flex-row gap-10 lg:gap-16 items-center justify-center min-h-screen px-6 py-12 bg-[#9CF6FB]">
       {/* Left Side: About College */}
       <div className="w-full h-[70%] lg:w-1/2 bg-white  rounded-2xl shadow-lg p-6 sm:p-8 mt-">
         <img
