@@ -40,7 +40,7 @@ export default function GridGallery() {
           <br />
           <br />
           <br />
-          <h1 className='text-center text-5xl font-bold  '>Gallray</h1>
+          <h1 className='text-center text-5xl font-bold  '>Gallary</h1>
       <div className="grid-gallery mt-5">
         {images.map((src, index) => (
           <img
