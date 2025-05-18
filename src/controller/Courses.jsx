@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 export default function Courses() {
 
     const courses = [
@@ -46,8 +47,10 @@ export default function Courses() {
   
     return (
       <>
+          <Navbar />
+    <br />  
       <div className="bg-[#9cf6fb] min-h-screen  py-10 px-4">
-        <img className="" src='' alt="universal"></img>
+
         <h2 className="text-2xl font-semibold mb-6 mt-[2vw]">Courses which do work ↓</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-16  w-[90vw] mx-[5vw]">
           {courses.map((course, index) => (

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import academyLogo from '../assets/univarsal.png';
+import Navbar from './Navbar';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -22,6 +23,9 @@ const ContactPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 text-gray-800 px-4 sm:px-6">
+    <Navbar/>
+    <br />
+    <br />
       {/* Header */}
       <div className="bg-white shadow p-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <img src={academyLogo} alt="Universal Computer Academy" className="h-20 w-auto mx-auto sm:mx-0" />

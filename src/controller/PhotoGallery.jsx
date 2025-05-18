@@ -23,6 +23,7 @@ import img17 from '../assets/12.jpg';
 import img18 from '../assets/13.jpg';
 import img19 from '../assets/14.jpg';
 import img20 from '../assets/15.jpg';
+import Navbar from './Navbar';
 
 Modal.setAppElement('#root');
 
@@ -34,6 +35,9 @@ export default function GridGallery() {
   return (
 
     <div className="gallery-container">
+       <Navbar/>
+          <br />
+          <br />
           <h1 className='text-center text-5xl font-bold  '>Gallray</h1>
       <div className="grid-gallery mt-5">
         {images.map((src, index) => (

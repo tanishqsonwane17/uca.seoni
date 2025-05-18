@@ -1,9 +1,14 @@
 import React from "react";
 import founderImg from "../assets/clg1.jpg"; // Make sure to put the image in 'src/assets' folder and rename accordingly
+import Navbar from "./Navbar";
 
 const About = () => {
   return (
+    
     <div className="bg-white text-gray-800 p-6 md:p-12 font-sans">
+   
+      <Navbar/>  
+      <br /><br />
       <h1 className="text-4xl font-bold text-center text-blue-700 mb-8">
         About Universal Computer Academy
       </h1>
