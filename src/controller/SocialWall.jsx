@@ -52,7 +52,7 @@ const SocialWall = () => {
             rel="noopener noreferrer"
             className="relative rounded-lg overflow-hidden shadow-md block"
           >
-            <img src={post.image} alt={`Post ${post.id}`} className="w-full h-64 object-cover" />
+            <img src={post.image} alt={`Post ${post.id}`} className="w-full h-64 object-contain" />
 
             {/* Platform Icon */}
             <div className="absolute top-2 right-2 bg-white p-1 rounded-full shadow">
