@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="md:hidden">
         <button onClick={() => setMenuOpen(!menuOpen)}>
           <svg
-            className="w-6 h-6 text-white"
+            className="w-6 h-6 text-black"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
