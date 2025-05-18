@@ -9,9 +9,9 @@ const posts = [
   },
   {
     id: 2,
-    image: 'https://img.freepik.com/free-photo/full-shot-family-running-meadow_23-2149049202.jpg?t=st=1745993640~exp=1745997240~hmac=b37094c4faaa93e4e74572e520a8f5290a2594a9f545b1851479f319b2533522&w=1380',
-    platform: 'youtube',
-    url: 'https://www.youtube.com/watch?v=yourvideoid'
+    image: 'https://imgs.search.brave.com/zoqmrohWQHF-QKLn9s4_Z1wJDp6bKGy3Pzt4af8C9dE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmpkbWFnaWNi/b3guY29tL2NvbXAv/c2VvbmkvZzgvOTk5/OXA3Njk1Ljc2OTUu/MjEwNjE5MTMzMzU1/LnY4ZzgvY2F0YWxv/Z3VlL3VuaXZlcnNh/bC1jb21wdXRlci1h/Y2FkZW15LXNlb25p/LWNpdHktc2Vvbmkt/aW5zdGl0dXRlcy0y/NGR6a2ExZXh1Lmpw/Zz93PTM4NDAmcT03/NQ',
+    // platform: 'youtube',
+    url: 'https://www.facebook.com/share/r/14xsswxrSf/'
   },
   {
     id: 3,
