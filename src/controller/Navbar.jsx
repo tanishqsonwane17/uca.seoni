@@ -6,7 +6,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-10 flex justify-between items-center px-6 py-4 bg-white/30 backdrop-blur-md shadow text-black">
+    <nav className="fixed top-0 left-0 w-full z-140 flex justify-between items-center px-6 py-4 bg-white/30 backdrop-blur-md shadow text-black">
       <div className="text-xl md:text-2xl font-bold">
         <span className="Uca">UNIVERSAL</span>{" "}
         <span className="Uca text-blue-900">COMPUTER ACADEMY</span>
