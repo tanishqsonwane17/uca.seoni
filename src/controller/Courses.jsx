@@ -49,6 +49,8 @@ export default function Courses() {
       <>
           <Navbar />
     <br />  
+    <br />  
+    <br />  
       <div className="bg-[#9cf6fb] min-h-screen  py-10 px-4">
 
         <h2 className="text-2xl font-semibold mb-6 mt-[2vw]">Courses which do work ↓</h2>

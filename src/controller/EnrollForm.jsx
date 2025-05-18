@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './EnrollForm.css'; // Make sure to create this CSS file or use Tailwind
+import Navbar from './Navbar';
 
 const courseDetails = {
   DCA: "Diploma in Computer Applications: 1 year, ₹14,000, includes basics of IT, MS Office, Internet.",
@@ -29,6 +30,11 @@ const EnrollForm = () => {
 
   return (
     <div className="enroll-container">
+      <Navbar/>
+      <br />
+      <br />
+      <br />
+      <br />
       <h2 className="form-title">Course Enrollment Form</h2>
       {submitted ? (
         <div className="thank-you-message">

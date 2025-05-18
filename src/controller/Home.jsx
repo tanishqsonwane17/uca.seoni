@@ -20,7 +20,7 @@ export default function MedicapsLandingPage() {
         <source src={bgvideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60 z-0" />
+      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60 " />
 
       {/* Navbar */}
       <Navbar />
@@ -28,7 +28,7 @@ export default function MedicapsLandingPage() {
       {/* Main Section */}
       <div className="pt-32 flex flex-col md:flex-row items-center px-4 md:px-8 pb-20 gap-10">
         <div className="w-full md:w-1/2 space-y-6 px-2 md:px-[5vw] text-center md:text-left">
-          <h1 className="text-3xl sm:text-6xl md:text-7xl font-bold text-white">
+          <h1 className="text-3xl sm:text-6xl md:text-7xl font-bold text-white  ">
             Enroll to Join the Ranks of Excellence
           </h1>
           <p className="text-white sm:text-2xl md:text-3xl">

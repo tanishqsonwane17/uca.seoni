@@ -38,6 +38,8 @@ export default function GridGallery() {
        <Navbar/>
           <br />
           <br />
+          <br />
+          <br />
           <h1 className='text-center text-5xl font-bold  '>Gallray</h1>
       <div className="grid-gallery mt-5">
         {images.map((src, index) => (
