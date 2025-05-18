@@ -9,6 +9,7 @@ const About = () => {
    
       <Navbar/>  
       <br /><br />
+      <br /><br />
       <h1 className="text-4xl font-bold text-center text-blue-700 mb-8">
         About Universal Computer Academy
       </h1>
